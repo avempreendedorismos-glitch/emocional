@@ -169,10 +169,48 @@ footer {
   <div class="section">
     <h2>O Que os Leitores Dizem</h2>
     <div class="testimonials">
-      <div class="testimonial">“Esse livro me atravessou.” <strong>— Rafael M.</strong></div>
-      <div class="testimonial">“Cru, necessário e transformador.” <strong>— Juliana S.</strong></div>
-      <div class="testimonial">“Parecia que o autor estava falando comigo.” <strong>— André L.</strong></div>
-    </div>
+
+  <!-- Depoimento 1 -->
+  <div class="testimonial">
+    <img 
+      src="depoimento1.jpg" 
+      alt="Depoimento de Rafael" 
+      class="testimonial-img"
+    >
+    <p class="testimonial-text">
+      “Esse livro me atravessou. Foi como encarar sentimentos que eu vinha evitando há anos.”
+    </p>
+    <strong class="testimonial-name">— Rafael M.</strong>
+  </div>
+
+  <!-- Depoimento 2 -->
+  <div class="testimonial">
+    <img 
+      src="depoimento2.jpg" 
+      alt="Depoimento de Juliana" 
+      class="testimonial-img"
+    >
+    <p class="testimonial-text">
+      “Cru, necessário e transformador. Não é um livro confortável — é um livro honesto.”
+    </p>
+    <strong class="testimonial-name">— Juliana S.</strong>
+  </div>
+
+  <!-- Depoimento 3 -->
+  <div class="testimonial">
+    <img 
+      src="depoimento3.jpg" 
+      alt="Depoimento de André" 
+      class="testimonial-img"
+    >
+    <p class="testimonial-text">
+      “Parecia que o autor estava falando diretamente comigo. Me senti compreendido.”
+    </p>
+    <strong class="testimonial-name">— André L.</strong>
+  </div>
+
+</div>
+
   </div>
 
   <div class="section">
@@ -226,4 +264,28 @@ footer {
   font-size: 1.5rem;
   position: absolute;
   left: 0;
+}
+.testimonial {
+  background: #fff3d6;
+  padding: 25px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.testimonial-img {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.testimonial-text {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.testimonial-name {
+  color: #d62828;
 }
